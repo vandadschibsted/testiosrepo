@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C63A301CD2285B00DCCA87 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 26C63A2D1CD2285B00DCCA87 /* Appfile */; };
+		26C63A311CD2285B00DCCA87 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 26C63A2E1CD2285B00DCCA87 /* Deliverfile */; };
+		26C63A321CD2285B00DCCA87 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 26C63A2F1CD2285B00DCCA87 /* Fastfile */; };
 		A90D9C2B1CD0D9A500CBEF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D9C2A1CD0D9A500CBEF10 /* AppDelegate.swift */; };
 		A90D9C2D1CD0D9A500CBEF10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D9C2C1CD0D9A500CBEF10 /* ViewController.swift */; };
 		A90D9C301CD0D9A500CBEF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90D9C2E1CD0D9A500CBEF10 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C63A2D1CD2285B00DCCA87 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		26C63A2E1CD2285B00DCCA87 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Deliverfile; path = fastlane/Deliverfile; sourceTree = SOURCE_ROOT; };
+		26C63A2F1CD2285B00DCCA87 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A90D9C271CD0D9A500CBEF10 /* OurProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90D9C2A1CD0D9A500CBEF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90D9C2C1CD0D9A500CBEF10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C63A2C1CD2285100DCCA87 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				26C63A2D1CD2285B00DCCA87 /* Appfile */,
+				26C63A2E1CD2285B00DCCA87 /* Deliverfile */,
+				26C63A2F1CD2285B00DCCA87 /* Fastfile */,
+			);
+			name = fastlane;
+			sourceTree = "<group>";
+		};
 		A90D9C1E1CD0D9A500CBEF10 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,7 @@
 		A90D9C291CD0D9A500CBEF10 /* OurProject */ = {
 			isa = PBXGroup;
 			children = (
+				26C63A2C1CD2285100DCCA87 /* fastlane */,
 				A90D9C4D1CD0DE7300CBEF10 /* Person.swift */,
 				A90D9C2A1CD0D9A500CBEF10 /* AppDelegate.swift */,
 				A90D9C2C1CD0D9A500CBEF10 /* ViewController.swift */,
@@ -183,6 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C63A321CD2285B00DCCA87 /* Fastfile in Resources */,
+				26C63A311CD2285B00DCCA87 /* Deliverfile in Resources */,
+				26C63A301CD2285B00DCCA87 /* Appfile in Resources */,
 				A90D9C381CD0D9A500CBEF10 /* LaunchScreen.storyboard in Resources */,
 				A90D9C351CD0D9A500CBEF10 /* Assets.xcassets in Resources */,
 				A90D9C301CD0D9A500CBEF10 /* Main.storyboard in Resources */,
