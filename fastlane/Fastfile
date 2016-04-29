@@ -22,7 +22,10 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan
+      scan(
+           scheme: "OurProject",
+           device: "iPhone 6s Plus (9.3)"
+           )
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
