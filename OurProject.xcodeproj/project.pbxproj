@@ -28,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C63A341CD37D5200DCCA87 /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		26C63A351CD37D5200DCCA87 /* Deliverfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Deliverfile; path = fastlane/Deliverfile; sourceTree = SOURCE_ROOT; };
+		26C63A361CD37D5200DCCA87 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A90D9C271CD0D9A500CBEF10 /* OurProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90D9C2A1CD0D9A500CBEF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90D9C2C1CD0D9A500CBEF10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C63A331CD37D4200DCCA87 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				26C63A341CD37D5200DCCA87 /* Appfile */,
+				26C63A351CD37D5200DCCA87 /* Deliverfile */,
+				26C63A361CD37D5200DCCA87 /* Fastfile */,
+			);
+			name = fastlane;
+			sourceTree = "<group>";
+		};
 		A90D9C1E1CD0D9A500CBEF10 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 		A90D9C291CD0D9A500CBEF10 /* OurProject */ = {
 			isa = PBXGroup;
 			children = (
+				26C63A331CD37D4200DCCA87 /* fastlane */,
 				A90D9C4D1CD0DE7300CBEF10 /* Person.swift */,
 				A90D9C2A1CD0D9A500CBEF10 /* AppDelegate.swift */,
 				A90D9C2C1CD0D9A500CBEF10 /* ViewController.swift */,
